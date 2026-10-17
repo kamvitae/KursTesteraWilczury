@@ -19,4 +19,5 @@ public class ShopSelectors {
     public static final By CART_PRODUCT_CARDS = By.xpath(
             "//main//div[@data-slot='card-content']" +
                     "[.//h3/a[contains(@href, '/produkty/')]]");
+    public static By emptySelector = By.xpath("");
 }
